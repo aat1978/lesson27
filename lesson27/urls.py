@@ -21,6 +21,6 @@ from vacancies.views import root
 urlpatterns = [
     path('', root),
     path('admin/', admin.site.urls),
-    path('ad/', include('vacancies.urls.ad'))
-    path('cat/', include('vacancies.urls.cat'))
+    path('ad/', include('vacancies.urls.ad')),
+    path('cat/', include('vacancies.urls.cat')),
 ]
