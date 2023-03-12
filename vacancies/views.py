@@ -1,6 +1,5 @@
 import json
 from django.http import JsonResponse
-from django.views.generic import DetailView
 from django.utils.decorators import method_decorator
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt
@@ -71,7 +70,7 @@ class AdListCreateView(View):
                 "price": ad.price,
                 "description": ad.description,
                 "address": ad.address,
-                "is_published": ad.is_published,
+                "is_published": ad.is_published
             } for ad in ad_list], safe=False)
 
     def post(self, request):

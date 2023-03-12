@@ -1,0 +1,1 @@
+[{"model": "vacancies.category", "pk": "1", "fields": {"name": "Котики"}}, {"model": "vacancies.category", "pk": "2", "fields": {"name": "Песики"}}, {"model": "vacancies.category", "pk": "3", "fields": {"name": "Книги"}}, {"model": "vacancies.category", "pk": "4", "fields": {"name": "Растения"}}, {"model": "vacancies.category", "pk": "5", "fields": {"name": "Мебель и интерьер"}}]
