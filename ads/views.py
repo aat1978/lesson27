@@ -5,7 +5,7 @@ from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import DetailView
 
-from vacancies.models import Category, Ad
+from ads.models import Category, Ad
 
 
 def root(request):

@@ -23,5 +23,5 @@ def convert_file(csv_file, json_file, model):
         json_f.write(json.dumps(result, ensure_ascii=False))
 
 
-convert_file('categories.csv', 'categories.json', 'vacancies.category')
-convert_file('ads.csv', 'ads.json', 'vacancies.ad')
+convert_file('categories.csv', 'categories.json', 'ads.category')
+convert_file('ads.csv', 'ads.json', 'ads.ad')
